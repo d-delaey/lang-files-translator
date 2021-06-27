@@ -20,7 +20,10 @@
 	],
 	"homepage": "https://github.com/d-delaey/lang-files-translator",
 	"keywords": [
-		"oclif"
+		"po",
+		"mo",
+		"Translate Language Files",
+		"google translate"
 	],
 	"license": "MIT",
 	"main": "src/index.js",
@@ -30,7 +33,6 @@
 	"repository": "d-delaey/lang-files-translator",
 	"scripts": {
 		"posttest": "eslint .",
-		"prepack": "oclif-dev readme",
 		"test": "echo NO TESTS"
 	},
 	"dependencies": {
