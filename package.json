@@ -1,6 +1,6 @@
 {
 	"name": "lang-files-translator",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "d-delaey @d-delaey",
 	"bin": {
 		"lang-files-translator": "./bin/run"
