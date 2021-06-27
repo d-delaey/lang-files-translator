@@ -1,44 +1,43 @@
 {
-  "name": "lang-files-translator",
-  "version": "1.0.0",
-  "author": "d-delaey @d-delaey",
-  "bin": {
-    "lang-files-translator": "./bin/run"
-  },
-  "bugs": "https://github.com/d-delaey/lang-files-translator/issues",
-  "devDependencies": {
-    "@oclif/dev-cli": "^1.26.0",
-    "eslint": "^5.16.0",
-    "eslint-config-oclif": "^3.1.0"
-  },
-  "engines": {
-    "node": ">=8.0.0"
-  },
-  "files": [
-    "/bin",
-    "/src"
-  ],
-  "homepage": "https://github.com/d-delaey/lang-files-translator",
-  "keywords": [
-    "oclif"
-  ],
-  "license": "MIT",
-  "main": "src/index.js",
-  "oclif": {
-    "bin": "lang-files-translator"
-  },
-  "repository": "d-delaey/lang-files-translator",
-  "scripts": {
-    "posttest": "eslint .",
-    "prepack": "oclif-dev readme",
-    "test": "echo NO TESTS",
-    "version": "oclif-dev readme && git add README.md"
-  },
-  "dependencies": {
-    "@oclif/command": "^1.8.0",
-    "@oclif/config": "^1.17.0",
-    "@oclif/plugin-help": "^3.2.2",
-    "@vitalets/google-translate-api": "^7.0.0",
-    "gettext-parser": "^4.0.4"
-  }
+	"name": "lang-files-translator",
+	"version": "1.0.0",
+	"author": "d-delaey @d-delaey",
+	"bin": {
+		"lang-files-translator": "./bin/run"
+	},
+	"bugs": "https://github.com/d-delaey/lang-files-translator/issues",
+	"devDependencies": {
+		"@oclif/dev-cli": "^1.26.0",
+		"eslint": "^5.16.0",
+		"eslint-config-oclif": "^3.1.0"
+	},
+	"engines": {
+		"node": ">=8.0.0"
+	},
+	"files": [
+		"/bin",
+		"/src"
+	],
+	"homepage": "https://github.com/d-delaey/lang-files-translator",
+	"keywords": [
+		"oclif"
+	],
+	"license": "MIT",
+	"main": "src/index.js",
+	"oclif": {
+		"bin": "lang-files-translator"
+	},
+	"repository": "d-delaey/lang-files-translator",
+	"scripts": {
+		"posttest": "eslint .",
+		"prepack": "oclif-dev readme",
+		"test": "echo NO TESTS"
+	},
+	"dependencies": {
+		"@oclif/command": "^1.8.0",
+		"@oclif/config": "^1.17.0",
+		"@oclif/plugin-help": "^3.2.2",
+		"@vitalets/google-translate-api": "^7.0.0",
+		"gettext-parser": "^4.0.4"
+	}
 }
