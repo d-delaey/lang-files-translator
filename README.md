@@ -2,8 +2,17 @@
 
 <!-- toc -->
 
+-   [Discription](#description)
 -   [Usage](#usage)
 <!-- tocstop -->
+
+# Description
+
+<!-- description -->
+
+With this Tool you can translate your language files in any language you want.
+
+<!-- descriptionstop -->
 
 # Usage
 
