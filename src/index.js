@@ -41,9 +41,6 @@ class LangFilesTranslatorCommand extends Command {
 
 		let poOutput = parser.po.compile(defaultTranslations);
 		fs.writeFileSync(args.output + ".po", poOutput);
-
-		let moOutput = parser.mo.compile(defaultTranslations);
-		fs.writeFileSync(args.output + ".mosf", moOutput);
 	}
 }
 
