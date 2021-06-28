@@ -1,9 +1,9 @@
 {
 	"name": "lang-files-translator",
-	"version": "1.0.1",
+	"version": "1.0.3",
 	"author": "d-delaey @d-delaey",
 	"bin": {
-		"lang-files-translator": "./bin/run"
+		"lang-files-translator": "bin/run"
 	},
 	"bugs": "https://github.com/d-delaey/lang-files-translator/issues",
 	"devDependencies": {
