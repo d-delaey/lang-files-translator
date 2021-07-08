@@ -1,18 +1,7 @@
 # lang-files-translator
 
-<!-- toc -->
-
--   [Discription](#description)
--   [Usage](#usage)
-<!-- tocstop -->
-
-# Description
-
-<!-- description -->
-
 With this Tool you can translate your language files in any language you want.
-
-<!-- descriptionstop -->
+Please report any bug or feature request to the Github repository (https://github.com/d-delaey/lang-files-translator/issues)
 
 # Usage
 

@@ -1,0 +1,4 @@
+*.mo
+*.po
+*.pot
+node_modules
